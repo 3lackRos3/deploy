@@ -20,7 +20,7 @@ require 'capistrano/deploy'
  set :rbenv_ruby, '2.1.3p242'
 
 # require 'capistrano/rvm'
-# require 'capistrano/rbenv'
+ require 'capistrano/rbenv'
 # require 'capistrano/chruby'
  require 'capistrano/bundler'
  require 'capistrano/rails'
