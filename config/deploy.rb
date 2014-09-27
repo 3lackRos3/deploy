@@ -9,7 +9,7 @@ set :repo_url, 'git@github.com:3lackRos3/deploy.git'
 
 # Default deploy_to directory is /var/www/my_app
  set :deploy_to, '/home/deploy/deploy'
-
+ set :default_env, { path: "~/.rbenv/shims:~/.rbenv/bin:$PATH" }
 # Default value for :scm is :git
 # set :scm, :git
 
